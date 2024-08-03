@@ -1,0 +1,35 @@
+.heading{
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    
+    color: antiquewhite;
+}
+
+.textCenter{
+    font-size: 35px;
+    text-align: center;
+}
+
+.underLineText{
+    text-decoration: underline;
+}
+
+.typesOfPhotography{
+    font-size: 30px;
+    text-align: center;
+}
+
+.backGround{
+    background-color: rgb(144, 198, 198) !important;
+}
+
+/* About.module.css */
+
+.paragraphSpacing {
+    margin-bottom: 2rem; /* Adjust based on your design needs */
+}
+
+.largeSpacing {
+    margin-bottom: 3rem; /* Larger spacing */
+}

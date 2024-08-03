@@ -1,0 +1,30 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .introText {
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  .introContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: #932929;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 3rem !important;
+    font-style: italic;
+  }
+  
+  .introMessage {
+    margin: 0.5rem 0;
+    
+  }
+  
