@@ -14,34 +14,34 @@ export default function Navbar() {
   <div class="container mx-auto flex items-center h-24">
     <a href="" class="flex items-center justify-center">
       <img class="h-16" src={logo} alt="" />
-      <span class="ml-4 uppercase font-black">Crystal<br/>Video</span>
+      <span class="ml-4 uppercase font-black">Crystal Video</span>
     </a>
     <nav class="contents font-semibold text-base lg:text-lg">
       <ul class="mx-auto flex items-center">
         <li class="p-5 xl:p-8 active">
-          <a href="">
-            <span>Home</span>
-          </a>
+        <Link to="/home">
+          <span>Home</span>
+        </Link>
         </li>
         <li class="p-5 xl:p-8">
-          <a href="">
+        <Link to="/about">
             <span>About</span>
-          </a>
+            </Link>
         </li>
         <li class="p-5 xl:p-8">
-          <a href="">
+        <Link to="/projects">
             <span>Projects</span>
-          </a>
+            </Link>
         </li>
         <li class="p-5 xl:p-8">
-          <a href="">
+        <Link to="/collections">
             <span>Collections</span>
-          </a>
+            </Link>
         </li>
         <li class="p-5 xl:p-8">
-          <a href="">
+        <Link to="/blog">
             <span>Blog</span>
-          </a>
+            </Link>
         </li>
       </ul>
     </nav>
