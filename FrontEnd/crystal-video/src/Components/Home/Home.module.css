@@ -1,0 +1,218 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .introText {
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  .introContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: #36317a;
+    text-align: center;
+    font-size: 3rem !important;
+    font-style: normal !important;
+  }
+  
+  .introMessage {
+    margin: 0.5rem 0;
+    
+  }
+  
+
+  .wedding-website {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav li {
+    margin-right: 20px;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-content {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  
+  .rsvp-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .rsvp-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .rsvp-form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .rsvp-form button {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding : 10;
+  }
+
+  .homeText {
+    background: #000405;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+  }
+
+  .HomeP {
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+  }
+
+  .fancy {
+    @supports (background-clip: text) or (-webkit-background-clip: text) {
+      background-image: 
+        url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'><g><path fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+      background-size: 110% auto;
+      background-position: center;
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
+
+
+  .backgroungImg {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    overflow: hidden;
+    --sz: 5px; /*** size ***/
+    --sp: 10s; /*** speed ***/
+    --b1: #3c3532;
+    --b2: #1c1b18;
+    --b3: #0c0b0a;
+    --b4: #0c0b0ae0;
+    --c1: #e399ff;
+    --ts: 50%/calc(var(--sz) * 17.5) calc(var(--sz) * 29.5);
+  }
+  
+  .backgroungstyle {
+    height:50vh;
+    background:
+      /* black shadows */
+      radial-gradient(circle at 50% 50%, var(--b4) calc(var(--sz) * 1), #fff0 calc(var(--sz) * 8)) var(--ts),
+      radial-gradient(circle at 0% 0%, var(--b4) calc(var(--sz) * 1), #fff0 calc(var(--sz) * 8)) var(--ts),
+      radial-gradient(circle at 0% 100%, var(--b4) calc(var(--sz) * 1), #fff0 calc(var(--sz) * 8)) var(--ts),
+      radial-gradient(circle at 100% 0%, var(--b4) calc(var(--sz) * 1), #fff0 calc(var(--sz) * 8)) var(--ts),
+      radial-gradient(circle at 100% 100%, var(--b4) calc(var(--sz) * 1), #fff0 calc(var(--sz) * 8)) var(--ts),
+      /* border bottom */
+      conic-gradient(from 90deg at 97.5% 67%, var(--c1) 0 87.5deg, #fff0 88deg 100%) var(--ts), /*repeated*/
+      conic-gradient(from 90deg at 97.5% 67%, var(--c1) 0 87.5deg, #fff0 88deg 100%) var(--ts),
+      conic-gradient(from 182.5deg at 2.5% 67%, #fff0 0 0deg, var(--c1) 0.5deg 90deg, #fff0 0 100%) var(--ts), /*repeated*/
+      conic-gradient(from 182.5deg at 2.5% 67%, #fff0 0 0deg, var(--c1) 0.5deg 90deg, #fff0 0 100%) var(--ts), 
+      /* border top */
+      conic-gradient(from 270deg at 2.5% 33%, var(--c1) 0 87.5deg, #fff0 88deg 100%) var(--ts), /*repeated*/
+      conic-gradient(from 270deg at 2.5% 33%, var(--c1) 0 87.5deg, #fff0 88deg 100%) var(--ts),
+      conic-gradient(from 2.5deg at 97.5% 33%, #fff0 0 0deg, var(--c1) 0.5deg 90deg, #fff0 0 100%) var(--ts), /*repeated*/
+      conic-gradient(from 2.5deg at 97.5% 33%, #fff0 0 0deg, var(--c1) 0.5deg 90deg, #fff0 0 100%) var(--ts),
+      /* bottom */
+      conic-gradient(from 116.5deg at 50% 85.5%, var(--b1) 0 127deg, #fff0 0 100%) var(--ts), /*repeated*/
+      conic-gradient(from 116.5deg at 50% 85.5%, var(--b1) 0 127deg, #fff0 0 100%) var(--ts), /*repeated*/
+      conic-gradient(from 116.5deg at 50% 85.5%, var(--b1) 0 127deg, #fff0 0 100%) var(--ts),
+      conic-gradient(from 120deg at 50% 83%, var(--c1) 0 120deg, #fff0 0 100%) var(--ts),
+      /* top */
+      conic-gradient(from -63.5deg at 50% 14.5%, var(--b1) 0 127deg, #fff0 0 100%) var(--ts), /*repeated*/
+      conic-gradient(from -63.5deg at 50% 14.5%, var(--b1) 0 127deg, #fff0 0 100%) var(--ts), /*repeated*/
+      conic-gradient(from -63.5deg at 50% 14.5%, var(--b1) 0 127deg, #fff0 0 100%) var(--ts),
+      conic-gradient(from -60deg at 50% 17%, var(--c1) 0 120deg, #fff0 0 100%) var(--ts),
+      /* central gradient */
+      conic-gradient(
+        from 0deg at 50% 50%, #fff0 0 2deg, 
+        var(--b2) 2.5deg 57.5deg, 
+        #fff0 58deg 62.5deg, 
+        var(--b1) 63deg 117.5deg, 
+        #fff0 118deg 122.5deg, 
+        var(--b3) 123deg 177.5deg, 
+        #fff0 178deg 182deg, 
+        var(--b2) 182.5deg 237.5deg, 
+        #fff0 0 242.5deg, 
+        var(--b1) 243deg 297.5deg, 
+        #fff0 298deg 302.5deg, 
+        var(--b3) 303deg 357.5deg,
+        #fff0 358deg 360deg
+      ) var(--ts),
+      /* bg */
+      var(--c1);
+    animation: colors var(--sp) linear 0s infinite;
+  }
+  
+  @keyframes colors {
+    100% { filter: hue-rotate(360deg); }
+  }
